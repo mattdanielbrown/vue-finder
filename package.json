@@ -60,7 +60,7 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
-    "@storybook/addon-actions": "^7.5.3",
+    "@storybook/addon-actions": "^9.0.8",
     "@storybook/addon-controls": "^7.5.3",
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",
