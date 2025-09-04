@@ -63,7 +63,7 @@
     "@storybook/addon-actions": "^7.5.3",
     "@storybook/addon-controls": "^7.5.3",
     "@storybook/addon-essentials": "^7.5.3",
-    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-links": "^9.1.2",
     "@storybook/builder-vite": "^7.5.3",
     "@storybook/vue3-vite": "^7.5.3",
     "@vitejs/plugin-vue": "^5.0.5",
