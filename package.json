@@ -50,13 +50,15 @@
     "lint": "eslint --ext .js,.vue .",
     "lint:fix": "eslint --ext .js,.vue . --fix",
     "prepublishOnly": "$npm_execpath run build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-env": "^7.8.4",
-    "@commitlint/cli": "^8.3.5",
+    "@commitlint/cli": "^8.3.6",
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
@@ -132,7 +134,8 @@
     ]
   },
   "dependencies": {
-    "lodash-es": "^4.17.20"
+    "lodash-es": "^4.17.20",
+    "@snyk/protect": "latest"
   },
   "peerDependencies": {
     "vue": "3.x"
@@ -150,5 +153,6 @@
     "last 1 version",
     "> 0.25%",
     "not dead"
-  ]
+  ],
+  "snyk": true
 }
