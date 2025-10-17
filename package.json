@@ -93,7 +93,7 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-vue": "^9.18.1",
-    "happy-dom": "^14.12.3",
+    "happy-dom": "^20.0.2",
     "husky": "^4.2.3",
     "jest-serializer-vue": "^3.1.0",
     "lint-staged": "^10.0.7",
